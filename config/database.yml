@@ -4,7 +4,6 @@ login: &login
   encoding: utf8
   adapter: postgresql
   username: loarie
-  template: template_postgis
 
 development:
   <<: *login
