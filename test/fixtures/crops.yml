@@ -1,0 +1,73 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  crop: MyString
+  lat: 1.5
+  lon: 1.5
+  plntS: 1.5
+  plntE: 1.5
+  hrvstS: 
+  hrvstE: 1.5
+  YldM: 1.5
+  YldL: 1.5
+  YldU: 1.5
+  p1: 1.5
+  p2: 1.5
+  p3: 1.5
+  p4: 1.5
+  p5: 1.5
+  p6: 1.5
+  p7: 1.5
+  p8: 1.5
+  p9: 1.5
+  p10: 1.5
+  p11: 1.5
+  p12: 1.5
+  t1: 1.5
+  t2: 1.5
+  t3: 1.5
+  t4: 1.5
+  t5: 1.5
+  t6: 1.5
+  t7: 1.5
+  t8: 1.5
+  t9: 1.5
+  t10: 1.5
+  t11: 1.5
+  t12: 1.5
+
+two:
+  crop: MyString
+  lat: 1.5
+  lon: 1.5
+  plntS: 1.5
+  plntE: 1.5
+  hrvstS: 
+  hrvstE: 1.5
+  YldM: 1.5
+  YldL: 1.5
+  YldU: 1.5
+  p1: 1.5
+  p2: 1.5
+  p3: 1.5
+  p4: 1.5
+  p5: 1.5
+  p6: 1.5
+  p7: 1.5
+  p8: 1.5
+  p9: 1.5
+  p10: 1.5
+  p11: 1.5
+  p12: 1.5
+  t1: 1.5
+  t2: 1.5
+  t3: 1.5
+  t4: 1.5
+  t5: 1.5
+  t6: 1.5
+  t7: 1.5
+  t8: 1.5
+  t9: 1.5
+  t10: 1.5
+  t11: 1.5
+  t12: 1.5
