@@ -7,4 +7,9 @@ class CropsController < ApplicationController
       end
   end
 
+  def plot
+    vals = params[:crop]
+    @crop = Crop.first(:conditions => ["crop = ? AND (lat - .5) < ? AND (lat + .5) > ? AND (lon - .5) < ? AND (lon + .5) > ?", vals[:crop], vals[:lat].to_f, vals[:lat].to_f, vals[:lon].to_f, vals[:lon].to_f] )
+    render :partial => 'crop', :object => @crop
+  end
 end

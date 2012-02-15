@@ -1,9 +1,13 @@
+h1 {
+color: white;
+}
+
 .container {
   width: 710px;
 }
 
 body {
-  background: #cff;
+  background: #D99B59;
 }
 
 #header {
@@ -25,17 +29,17 @@ body {
 /* Links */
 
 a {
-  color: #09c;
+  color: #BF6606;
   text-decoration: none;
 }
 
 a:hover {
-  color: #069;
+  color: #BF6606;
   text-decoration: underline;
 }
 
 a:visited {
-  color: #069;
+  color: #BF6606;
 }
 
 /* Navigation */
@@ -66,7 +70,7 @@ ul.navigation {
 }
 
 .navigation li a:visited {
-  color: #09c;
+  color: #BF6606;
 }
 
 .navigation li a:hover {

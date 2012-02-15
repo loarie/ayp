@@ -4,6 +4,8 @@
   <head>
     <title>AYP | <%= @title %></title>
 	<%= render 'layouts/stylesheets' %>
+	<%= yield :extracss %>
+	<%= yield :extrajs %>
   </head>
   <body>
 	<div class="container">
