@@ -1,0 +1,17 @@
+<% if @crop -%>
+	<h2>Projections for <%= @crop.crop %></h2>
+    Planting Period:
+	<%= @crop.lat %><br/>
+	Harvest Period:
+	<%= @crop.lat %><br/>
+	Projected Yield:
+	<%= @crop.lat %> tonnes/Ha<br/>
+<% else -%>
+	<h2>Projections for Millet</h2>
+    Planting Period:
+	Jul 1st - Aug 1st<br/>
+	Harvest Period:
+	Aug 1st - Dec 1st<br/>
+	Projected Yield:
+	1.3 tonnes/Ha<br/>
+<% end -%>
